@@ -18,6 +18,8 @@ Once they enter the loop they are expected to meet, which denotes that there is 
 
 //Floyd cycle detection algorithm in LL
 //Detect the loop. If loop exists than find the start node of loop and remove the loop.
+//we take 1 and 2 steps while detecting loop. Can we take 2 and 3 steps ?
+//Yes, we can but the complexity will be high.
 
 class Node {
     int data;

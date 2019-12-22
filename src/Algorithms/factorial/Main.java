@@ -1,3 +1,5 @@
+package Algorithms.factorial;
+
 public class Main {
     static int fact(int n) {
         if(n <= 1) { System.out.println("in return") ;return 1; }
