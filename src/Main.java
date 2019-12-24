@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     static int fact(int n) {
         if(n <= 1) { System.out.println("in return") ;return 1; }
@@ -10,6 +12,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println(fact(4));
+        Integer i = null;
+        System.out.println(i);
+
+        int[] arr = {1,2,3};
+        System.out.println(Arrays.toString(arr));
     }
 }

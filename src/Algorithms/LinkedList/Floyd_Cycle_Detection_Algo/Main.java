@@ -1,4 +1,4 @@
-package Algorithms.LinkedList.FloydCycleDetectionAlgo;
+package Algorithms.LinkedList.Floyd_Cycle_Detection_Algo;
 
 /*
 Approach - 1:

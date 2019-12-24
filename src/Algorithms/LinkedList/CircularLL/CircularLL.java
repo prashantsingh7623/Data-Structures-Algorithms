@@ -125,15 +125,15 @@ public class CircularLL {
         insertEnd(40);
         insertEnd(50);
         display();
-        insertBeg(60);
-        display();
-        insertMid(70,3);
-        display();
-        System.out.println(countNodes(head));
-        deleteEnd();
-        display();
-        deleteBeg();
-        display();
+//        insertBeg(60);
+//        display();
+//        insertMid(70,3);
+//        display();
+//        System.out.println(countNodes(head));
+//        deleteEnd();
+//        display();
+//        deleteBeg();
+//        display();
 
     }
 }

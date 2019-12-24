@@ -1,4 +1,4 @@
-package Algorithms.LinkedList.FindNthNodeFromEnd;
+package Algorithms.LinkedList.Find_Nth_Node_From_End;
 
 //find nth from end.
 

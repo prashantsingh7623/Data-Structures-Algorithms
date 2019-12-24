@@ -2,18 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000a8bb7-8980-4f2b-812d-72c2f07e7d86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/reverseLL/printUsingRecursion/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/reverseLL/usingLoop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/reverseLL/usingRecursion/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/factorial/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/find_largest_island_in_2D_matrix/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/Find_LL_Is_Even_or_odd/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/Josephus_circle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/Merge_2_Sorted_LL/Iterative_approach/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/Merge_2_Sorted_LL/Recursive_approach/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/XOR_LL/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/find_middle_of_LL/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/intersection_Of_2_LL/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/print_common_ele_in_sortedLL/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/questions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/reverse_LL_in_pairs/Iterative_approach/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/reverse_LL_in_pairs/Recursive_approach/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/split_circularLL_in_2_equal_parts/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/FloydCycleDetectionAlgo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/FloydCycleDetectionAlgo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/FloydCycleDetectionAlgo/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/FloydCycleDetectionAlgo/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/find_no_of_islands_in_2D_matrix/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/find_no_of_islands_in_2D_matrix/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/CircularLL/CircularLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/CircularLL/CircularLL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/FindNthNodeFromEnd/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/FindNthNodeFromEnd/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/FloydCycleDetectionAlgo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/FloydCycleDetectionAlgo/Node.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/FloydCycleDetectionAlgo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/FloydCycleDetectionAlgo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/find_no_of_islands_in_2D_matrix/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/find_no_of_islands_in_2D_matrix/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/CircularLL/CircularLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/CircularLL/CircularLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/FindNthNodeFromEnd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/Find_Nth_Node_From_End/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/FloydCycleDetectionAlgo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/Floyd_Cycle_Detection_Algo/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,15 +52,50 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Algorithms/LinkedList/reverse_LL_in_pairs/Recursive_approach" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.LinkedList.reverseLL.Main" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Algorithms/LinkedList/reverse_LL_in_pairs/Recursive_approach" />
+      <recent name="$PROJECT_DIR$/src/Algorithms/LinkedList/reverse_LL_in_pairs/Iterative_approach" />
+      <recent name="$PROJECT_DIR$/src/Algorithms/LinkedList/Merge_2_Sorted_LL/Recursive_approach" />
+      <recent name="$PROJECT_DIR$/src/Algorithms/LinkedList/Merge_2_Sorted_LL/Iterative_approach" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="CircularLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.LinkedList.CircularLL.CircularLL" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.LinkedList.reverseLL.*" />
+          <option name="PATTERN" value="Algorithms.LinkedList.CircularLL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.LinkedList.reverse_LL_in_pairs.Iterative_approach.Main" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.LinkedList.reverse_LL_in_pairs.Iterative_approach.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.LinkedList.print_common_ele_in_sortedLL.Main" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.LinkedList.print_common_ele_in_sortedLL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,37 +104,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.LinkedList.reverseLL.printUsingRecursion.Main" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.LinkedList.Josephus_circle.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.LinkedList.reverseLL.printUsingRecursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.LinkedList.reverseLL.usingLoop.Main" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithms.LinkedList.reverseLL.usingLoop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.LinkedList.reverseLL.usingRecursion.Main" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithms.LinkedList.reverseLL.usingRecursion.*" />
+          <option name="PATTERN" value="Algorithms.LinkedList.Josephus_circle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,19 +117,51 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.LinkedList.split_circularLL_in_2_equal_parts.Main" />
       <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.LinkedList.split_circularLL_in_2_equal_parts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.LinkedList.intersection_Of_2_LL.Main" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.LinkedList.intersection_Of_2_LL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.LinkedList.find_middle_of_LL.Main" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.LinkedList.find_middle_of_LL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CircularLL" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -140,34 +191,58 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1577049677276">
+    <state x="468" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577198326841">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577049677276" />
+    <state x="468" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1577198326841" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1577203965407">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577203965407" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1577034219992" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1577049677275">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1577127682617" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1577203965404">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577049677275" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577203965404" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1577034219989" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1577049677274">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1577127682615" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1577203965401">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577049677274" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577203965401" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1577034219986" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1577049677275">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1577127682614" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1577203965405">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577049677275" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577203965405" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1577034219990" />
-    <state x="106" y="68" key="SettingsEditor" timestamp="1576854838788">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1577127682616" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1577186890898">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="106" y="68" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1576854838788" />
-    <state x="413" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1577029530584">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577186890898" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1577186890897">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="413" y="280" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1577029530584" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1577186890897" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1577186890896">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1577186890896" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1577186890897">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1577186890897" />
+    <state x="106" y="68" key="SettingsEditor" timestamp="1577113549880">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="106" y="68" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577113549880" />
+    <state x="413" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1577177712702">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="413" y="280" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1577177712702" />
     <state x="413" y="279" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1576601396404" />
     <state x="397" y="103" width="782" height="693" key="find.popup" timestamp="1576683124021">
       <screen x="0" y="0" width="1440" height="900" />
