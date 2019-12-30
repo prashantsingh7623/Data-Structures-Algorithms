@@ -1,0 +1,23 @@
+Problem -22
+The stock span problem -
+https://www.youtube.com/watch?v=LvQzYMXEANs
+
+Problem-14
+How do we implement two stacks using only one array? Our stack routines
+should not indicate an exception unless every slot in the array is used?
+
+Solution
+Algorithm:
+• Start two indexes one at the left end and the other at the right end.
+• The left index simulates the first stack and the right index simulates the second stack.
+• If we want to push an element into the first stack then put the element at the left index.
+• Similarly, if we want to push an element into the second stack then put the element at the right index.
+• The first stack grows towards the right, and the second stack grows towards the left.
+Time Complexity of push and pop for both stacks is O(1). Space Complexity is O(1).
+
+Problem-17
+Multiple (m) stacks in one array: Similar to Problem-15, what if we want to implement m stacks in one array?
+
+Solution:
+Let us assume that array indexes are from 1 to n. Similar to the discussion in Problem- 15, to implement m stacks in one array, we divide the array into m parts (as shown below). The
+size of each part is .
