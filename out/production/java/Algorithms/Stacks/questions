@@ -21,3 +21,19 @@ Multiple (m) stacks in one array: Similar to Problem-15, what if we want to impl
 Solution:
 Let us assume that array indexes are from 1 to n. Similar to the discussion in Problem- 15, to implement m stacks in one array, we divide the array into m parts (as shown below). The
 size of each part is .
+
+Problem-31
+How to implement a stack which will support following operations in O(1) time complexity?
+• Push which adds an element to the top of stack.
+• Pop which removes an element from top of stack.
+• Find Middle which will return middle element of the stack.
+• Delete Middle which will delete the middle element.
+
+Solution:
+We can use a LinkedList data structure with an extra pointer to the middle element.
+Also, we need another variable to store whether the LinkedList has an even or odd number of elements.
+• Push: Add the element to the head of the LinkedList. Update the pointer to the middle element according to variable.
+• Pop: Remove the head of the LinkedList. Update the pointer to the middle element according to variable.
+• Find Middle: Find Middle which will return middle element of the stack.
+• Delete Middle: Delete Middle which will delete the middle element use the logic of
+Problem-43 from Linked Lists chapter.

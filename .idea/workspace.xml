@@ -2,20 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000a8bb7-8980-4f2b-812d-72c2f07e7d86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/check_LL_is_palindrome/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/check_data_in_LL_is_palindrome/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Stacks/Largest_rectangle_in_histogram/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Stacks/Stock_span_problem/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Stacks/check_symbol_balancing/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Stacks/questions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Stacks/remove_all_adjacent_duplicates/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Stacks/replace_each_ele_with_nearest_great_on_right/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Queues/questions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/SinglyLL/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/SinglyLL/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/SinglyLL/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/SinglyLL/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/print_common_ele_in_sortedLL/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/print_common_ele_in_sortedLL/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/print_common_ele_in_sortedLL/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/print_common_ele_in_sortedLL/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/reverse_LL_in_pairs/Iterative_approach/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/reverse_LL_in_pairs/Iterative_approach/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/reverse_LL_in_pairs/Iterative_approach/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/reverse_LL_in_pairs/Iterative_approach/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/Stacks/questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/Stacks/questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/Stacks/replace_each_ele_with_nearest_great_on_right/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/Stacks/replace_each_ele_with_nearest_great_on_right/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/SinglyLL/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/SinglyLL/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/print_common_ele_in_sortedLL/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/print_common_ele_in_sortedLL/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/reverse_LL_in_pairs/Iterative_approach/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/reverse_LL_in_pairs/Iterative_approach/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/find_largest_island_in_2D_matrix/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/find_largest_island_in_2D_matrix/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,13 +59,13 @@
       <recent name="$PROJECT_DIR$/src/Algorithms/LinkedList/Merge_2_Sorted_LL/Iterative_approach" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.LinkedList.check_LL_is_palindrome.Main" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.find_largest_island_in_2D_matrix.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.LinkedList.check_LL_is_palindrome.*" />
+          <option name="PATTERN" value="Algorithms.find_largest_island_in_2D_matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,15 +99,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Stacks.Stock_span_problem.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithms.Stacks.Stock_span_problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -185,30 +189,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="448" y="296" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1440.900@0.0.1440.900" timestamp="1577457344785" />
-    <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1577733520477">
+    <state x="408" y="185" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578415040805">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577733520477" />
+    <state x="408" y="185" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1578415040805" />
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1577805051063">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577771862648" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1577034219992" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1577127682617" />
-    <state width="1398" height="226" key="GridCell.Tab.0.center" timestamp="1577733520476">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1577805051063" />
+    <state width="1398" height="226" key="GridCell.Tab.0.center" timestamp="1577805051061">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577733520476" />
+    <state width="1398" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577771862646" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1577034219989" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1577127682615" />
-    <state width="1398" height="226" key="GridCell.Tab.0.left" timestamp="1577733520475">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="226" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1577805051061" />
+    <state width="1398" height="226" key="GridCell.Tab.0.left" timestamp="1577805051060">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577733520475" />
+    <state width="1398" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577771862645" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1577034219986" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1577127682614" />
-    <state width="1398" height="226" key="GridCell.Tab.0.right" timestamp="1577733520477">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="226" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1577805051060" />
+    <state width="1398" height="226" key="GridCell.Tab.0.right" timestamp="1577805051062">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577733520477" />
+    <state width="1398" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577771862647" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1577034219990" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1577127682616" />
+    <state width="1398" height="226" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1577805051062" />
     <state width="1398" height="289" key="GridCell.Tab.1.bottom" timestamp="1577650822620">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -229,10 +237,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="310" y="178" width="900" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577631463190" />
-    <state x="413" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1577729779376">
+    <state x="413" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1578415074452">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="413" y="280" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1577729779376" />
+    <state x="413" y="280" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1578415074452" />
     <state x="413" y="279" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1576601396404" />
     <state x="397" y="103" width="782" height="693" key="find.popup" timestamp="1576683124021">
       <screen x="0" y="0" width="1440" height="900" />

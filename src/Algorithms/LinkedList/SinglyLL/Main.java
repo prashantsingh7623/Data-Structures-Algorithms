@@ -1,7 +1,5 @@
 package Algorithms.LinkedList.SinglyLL;
 
-import javax.xml.stream.events.NotationDeclaration;
-
 //creating the definition of Node class
 class Node {
     int data;

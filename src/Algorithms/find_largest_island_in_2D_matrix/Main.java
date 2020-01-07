@@ -11,7 +11,7 @@ public class Main {
     }
 
     //method to explore cell(i,j)
-    static void DFS(int [][]M, int row, int col, boolean visited[][]) {
+    static void DFS(int [][]M, int row, int col, boolean[][] visited) {
 
         visited[row][col] = true;
 
@@ -28,7 +28,7 @@ public class Main {
 
     //method to find the largest path to ones
     static int largestResult(int [][]M) {
-        boolean visited[][] = new boolean[ROW][COL];
+        boolean[][] visited = new boolean[ROW][COL];
         int result = 0;
         for(int i =0; i < ROW; i++) {
             for(int j = 0; j<COL; j++) {

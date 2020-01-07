@@ -1,8 +1,5 @@
 package Algorithms.LinkedList.print_common_ele_in_sortedLL;
 
-import javax.management.NotificationEmitter;
-import java.lang.management.ManagementFactory;
-
 class Node {
     int data;
     Node next;
