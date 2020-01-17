@@ -15,5 +15,41 @@ class Node {
 }
 
 public class Main {
-    
+    static Node head = null;
+    static void insert(int data) {
+        Node ptr = head;
+        if (ptr == null) { head = new Node(data); return; }
+        while (ptr.next != null) { ptr = ptr.next; }
+        ptr.next = new Node(data);
+    }
+
+    static void display() {
+        Node ptr = head;
+        if (ptr == null) { return; }
+        while (ptr != null) {
+            System.out.print(ptr.data + " -> ");
+            ptr = ptr.next;
+        }
+    }
+
+    static Node reverseLLPairWise(Node ptr) {
+        Node temp;
+        if(ptr == null || ptr.next == null) { return null; }
+        else {
+            temp = ptr.next;
+            ptr.next = temp.next;
+            temp.next = ptr;
+            ptr = temp;
+            ptr.next.next = reverseLLPairWise(ptr.next.next);
+            return ptr;
+        }
+    }
+
+    public static void main(String[] args) {
+        insert(1);insert(3);insert(3);insert(4);insert(5);
+        display();
+        head = reverseLLPairWise(head);
+        System.out.println();
+        display();
+    }
 }

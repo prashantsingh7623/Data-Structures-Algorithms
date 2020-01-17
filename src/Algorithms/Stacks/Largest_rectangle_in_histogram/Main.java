@@ -44,12 +44,12 @@ public class Main {
         while (!stack.isEmpty()) {
             temp = stack.pop();
             area = a[temp] * (stack.isEmpty() ? i : (i - 1 - stack.peek()));
-            System.out.println("area : " + area);
+            System.out.println("area 2 : " + area);
             if(area > maxArea) { maxArea = area; }
         }
         return maxArea;
     }
-    static int findLargestRectangle_BF(int[] a) {
+    static int findLargestRectangle_BruteForce(int[] a) {
         int n = a.length;
         int max, greatMax = 0;
         for (int value : a) {

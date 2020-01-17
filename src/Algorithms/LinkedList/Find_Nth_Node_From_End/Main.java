@@ -13,9 +13,9 @@ Space Complexity: O(1).
 
 Approach : 2 - Improvement over brute force
 First we find the size of the LL(say M). This can be done using hash tables or direct traversing.
-Then we find M + n - 1 and with one more scan we can get the M – n+ 1th node from the beginning.
+and with one more scan we can get the M – n + 1th node from the beginning.
 This solution needs two scans: one for finding the length of the list and
-the other for finding M – n+ 1th node from the beginning.
+the other for finding M – n + 1th node from the beginning.
 Time Complexity: Time for finding the length + Time for finding the M – n + 1th node from the beginning.
 Therefore, T(n) = O(n) + O(n) ≈ O(n). Space Complexity: O(1). Hence, no need to create the hash table.
 
@@ -72,14 +72,9 @@ public class Main {
     public static void main(String[] args) {
         insert(10);
         insert(20);
-        insert(30);
-        insert(40);
-        insert(50);
-        insert(60);
-        insert(70);
         display();
 
         //find the 3rd node from last
-        findNode(3);
+        findNode(2);
     }
 }

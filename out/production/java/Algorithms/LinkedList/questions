@@ -22,7 +22,7 @@ Is it possible to get O(1) access time for Linked Lists?
 
 Solution:
 Yes. Create a linked list and at the same time keep it in a hash table.
-For n elements we have to keep all the elements in a hash table which gives a preprocessing time of O(n).
+For n elements we have to keep all the elements in a hash table which gives a pre processing time of O(n).
 To read any element we require only constant time O(1) and to read n elements
 we require n * 1 unit of time = n units. Hence by using amortized analysis we can say that
 element access can be performed within O(1) time.
@@ -54,4 +54,26 @@ reorder it to {A1, An,A2,An–1} without using any extra space.
 Solution: Find the middle of the linked list. We can do it by slow and fast pointer approach.
 After finding the middle node, we reverse the right half then we do a in place merge
 of the two halves of the linked list.
+
+Problem-32  Reverse the linked list in pairs. If you have a linked list that holds
+1 → 2 → 3 → 4 → X, then after the function has been called the linked list would hold 2 → 1 → 4 → 3 → X.
+
+Solution : see programs
+
+Problem-38  For a given K value (K > 0) reverse blocks of K nodes in a list.
+Example: Input: 1 2 3 4 5 6 7 8 9 10. Output for different K values:
+For K = 2: 2 1 4 3 6 5 8 7 10 9
+For K = 3: 3 2 1 6 5 4 9 8 7 10
+For K = 4: 4 3 2 1 8 7 6 5 9 10
+
+Solution:
+Algorithm: This is an extension of swapping nodes in a linked list.
+1) Check if remaining list has K nodes.
+    a. If yes get the pointer of K + 1th node.
+    b. Else return.
+2) Reverse first K nodes.
+3) Set next of last node (after reversal) to K + 1th node.
+4) Move to K + 1th node.
+5) Go to step 1.
+6) K – 1th node of first K nodes becomes the new head if available. Otherwise, we can return the head.
 

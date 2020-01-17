@@ -1,0 +1,6 @@
+Problem-17  Given two binary trees, return true if they are structurally identical.
+Solution: Algorithm:
+         • If both trees are NULL then return true.
+         • If both trees are not NULL, then compare data and recursively check left and right
+         subtree structures.
+

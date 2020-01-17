@@ -1,49 +1,54 @@
-//find largest island in 2d matrix or number of 1's in an matrix.
-public class Main {
-    static int ROW, COL, count;
+class Node {
+    int data;
+    Node next;
+    Node(int data) {
+        this.data = data;
+        next = null;
+    }
+}
 
-    //function to check whether the cell(i,j) is safe to explore.
-    static boolean isSafe(int row, int col, int[][] M, boolean[][] visited) {
-        return ((row >= 0) && (row < ROW) && (col >=0 ) && (col < COL)
-                && M[row][col] == 1 && !visited[row][col]);
+public class Main {
+    static Node head = null;
+    static void insert(int data) {
+        Node ptr = head;
+        if (ptr == null) { head = new Node(data);  return; }
+        while (ptr.next != null) { ptr = ptr.next; }
+        ptr.next = new Node(data);
     }
 
-    //method explore cell(i,j)
-    static void DFS(int row, int col, int[][] M, boolean[][] visited) {
-        //mark this cell as visited
-        visited[row][col] = true;
-
-        //make array to store cell indexes which help to explore.
-        int[] rowNbr = {-1,-1,-1,0,0,1,1,1};
-        int[] colNbr = {-1,0,1,-1,1,-1,0,1};
-
-        for(int i = 0; i<7; i++) {
-            if(isSafe(row + rowNbr[i], col + colNbr[i], M, visited)) {
-                count ++;
-                DFS(row + rowNbr[i], col + colNbr[i], M, visited);
-            }
+    static void display() {
+        Node ptr = head;
+        if(ptr == null) {
+            System.out.println("LL is empty...!");
+            return;
+        }
+        while (ptr != null) {
+            System.out.print(ptr.data + " -> ");
+            ptr = ptr.next;
         }
     }
 
-    //method to find largest island.
-    static int largestIsland(int[][] M) {
-        boolean[][] visited = new boolean[ROW][COL];
-        int largest = 0;
-        for(int i=0; i<ROW; i++)
-            for(int j=0; j<COL; j++) {
-                if(M[i][j] == 1 && !visited[i][j]) {
-                    count = 1;
-                    DFS(i,j,M,visited);
-                    largest = Math.max(largest, count);
-                }
-            }
-        return largest;
+    static Node reverseLL() {
+        Node new_head = null;
+        Node nextNode;
+        Node ptr = head;
+        int count = 1;
+        while (count != 4) {
+            nextNode = head.next;
+            head.next = new_head;
+            new_head = head;
+            head = nextNode;
+            count += 1;
+        }
+        return new_head;
     }
 
     public static void main(String[] args) {
-        ROW = 5;
-        COL = 5;
-        int [][]M = {{1,1,0,0,0},{0,1,0,0,1},{1,0,0,1,1},{0,0,0,0,0},{1,0,1,0,1}};
-        System.out.println(largestIsland(M));
+        insert(1); insert(2); insert(3); insert(4); insert(5);
+        display();
+        head = reverseLL();
+        System.out.println();
+        display();
+
     }
 }

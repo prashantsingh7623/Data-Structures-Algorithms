@@ -56,7 +56,6 @@ public class Main {
         insert(20);
         insert(30);
         insert(40);
-        displayUsingRecursion(head);
         Node temp = reverseLL();
         head = temp;
         display();
