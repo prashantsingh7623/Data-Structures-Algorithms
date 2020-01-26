@@ -34,6 +34,19 @@ public class Main {
         }
         return ptr;
     }
+    static void insertNodeUsingQueue(Node ptr, int data) {
+        if (ptr == null) { root = new Node(data); return; }
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(ptr);
+        while (!queue.isEmpty()) {
+            Node temp = queue.poll();
+            if (temp.left != null) { queue.add(temp.left); }
+            else { temp.left = new Node(data); return; }
+            if (temp.right != null) { queue.add(temp.right); }
+            else { temp.right = new Node(data); return; }
+        }
+    }
+
     static void inOrderTraversalWithoutRecur(Node ptr) {
         Stack<Node> stack = new Stack<>();
         while (true) {

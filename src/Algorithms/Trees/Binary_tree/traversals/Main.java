@@ -6,9 +6,7 @@ package Algorithms.Trees.Binary_tree.traversals;
 array of values to be inserted.
 */
 
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 class Node {
     int data;
@@ -23,6 +21,7 @@ class Node {
 public class Main {
     static Node root = null;
 
+    //insertion
     static Node insertNode(int[] arr, Node root, int i) {
         if (i < arr.length) {
             root = new Node(arr[i]);
@@ -34,6 +33,7 @@ public class Main {
         return root;
     }
 
+    //traversal using recursion
     static void preOrder(Node ptr) {
         if (ptr == null) {
             return;
@@ -69,7 +69,15 @@ public class Main {
             if(temp.right != null) { queue.add(temp.right); }
         }
     }
+    static void verticalOrderTraversal(Node ptr, int col, Map<Integer, List<Integer>> hashMap) {
+        if (ptr == null) { return; }
+        verticalOrderTraversal(ptr.left, col - 1, hashMap);
+        hashMap.putIfAbsent(col, new ArrayList<>());
+        hashMap.get(col).add(ptr.data);
+        verticalOrderTraversal(ptr.right, col + 1, hashMap);
+    }
 
+    //traversals using non-recursion
     static void preOrderNonRecursion(Node ptr) {
         Stack<Node> stack = new Stack<>();
         while (true) {
@@ -142,5 +150,11 @@ public class Main {
         System.out.println();
         System.out.print("level order traversal : ");
         levelOrderTraversal(temp);
+
+        //vertical order traversal
+        System.out.println("vertical order traversal : ");
+        Map<Integer, List<Integer>> hashMap = new HashMap<>();
+        verticalOrderTraversal(temp, 0, hashMap);
+        hashMap.forEach((key, value) -> System.out.println(key + " " + value));
     }
 }
