@@ -9,10 +9,11 @@ array of values to be inserted.
 import java.util.*;
 
 class Node {
-    int data;
+    int data, hd; //hd = horizontal distance for VOT non-recursion.
     Node left, right;
 
     Node(int data) {
+        hd = 0;
         this.data = data;
         left = right = null;
     }
@@ -129,9 +130,31 @@ public class Main {
             }
         } while (!stack.isEmpty());
     }
+    static void verticalOrderTraversalNonRecursion(Node root) {
+        if (root == null) { return; }
+        SortedMap<Integer, List<Integer>> sortedMap = new TreeMap<>();
+        Queue<Node> queue = new LinkedList<>();
+        List<Integer> l;
+        int h_dist = 0;
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            Node temp = queue.poll();
+            h_dist = temp.hd;
+            if (!sortedMap.containsKey(h_dist)) {
+                l = new ArrayList<>();
+                l.add(temp.data);
+                sortedMap.put(h_dist, l);
+            } else {
+                sortedMap.get(h_dist).add(temp.data);
+            }
+            if (temp.left != null) { temp.left.hd = h_dist - 1; queue.add(temp.left); }
+            if (temp.right != null) { temp.right.hd = h_dist + 1; queue.add(temp.right); }
+        }
+        sortedMap.forEach((key, value) -> System.out.println(key + " : " + value));
+    }
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7};
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15};
         Node temp = insertNode(arr, root, 0);
         preOrder(temp);
         System.out.println();
@@ -156,5 +179,10 @@ public class Main {
         Map<Integer, List<Integer>> hashMap = new HashMap<>();
         verticalOrderTraversal(temp, 0, hashMap);
         hashMap.forEach((key, value) -> System.out.println(key + " " + value));
+
+        //vertical using non-recursion
+        System.out.println();
+        System.out.println("vertical using non-recursion : ");
+        verticalOrderTraversalNonRecursion(temp);
     }
 }
