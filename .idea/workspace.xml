@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000a8bb7-8980-4f2b-812d-72c2f07e7d86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Trees/Binary_tree/top_view_of_tree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Trees/Binary_search_trees/insertion_in_BST/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Trees/Binary_search_trees/traversals_in_BST/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/Trees/Binary_tree/traversals/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/Trees/Binary_tree/traversals/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/Trees/Binary_tree/traversals/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/Trees/Binary_tree/traversals/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Trees/Binary_tree/traversals/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Trees/Binary_tree/traversals/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/Trees/Binary_tree/top_view_of_tree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/Trees/Binary_tree/top_view_of_tree/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/Trees/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Trees/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -28,13 +42,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UWTq1QGclJkVfAOajGfbHtmNCJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Algorithms/LinkedList/reverse_LL_in_pairs/Recursive_approach" />
@@ -48,13 +65,13 @@
       <recent name="$PROJECT_DIR$/src/Algorithms/LinkedList/Merge_2_Sorted_LL/Iterative_approach" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Trees.Binary_tree.zig_zag_traversal.Main" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Trees.Binary_search_trees.insertion_in_BST.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.Trees.Binary_tree.zig_zag_traversal.*" />
+          <option name="PATTERN" value="Algorithms.Trees.Binary_search_trees.insertion_in_BST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Trees.Binary_search_trees.traversals_in_BST.Main" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.Trees.Binary_search_trees.traversals_in_BST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms.Trees.Binary_tree.top_view_of_tree.Main" />
       <module name="java" />
@@ -88,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Trees.Binary_tree.build_tree_from_char_array.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Trees.n_ary_trees_generic.build_tree_from_preOrder.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.Trees.Binary_tree.build_tree_from_char_array.*" />
+          <option name="PATTERN" value="Algorithms.Trees.n_ary_trees_generic.build_tree_from_preOrder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,20 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (6)" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -144,11 +167,18 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="468" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577198326841">
+    <state x="320" y="115" key="#Notifications" timestamp="1580751804086">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="468" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1577198326841" />
+    <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1580751804086" />
+    <state x="468" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580751684112">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="468" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1580751684112" />
     <state x="448" y="296" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1577457344785">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -157,28 +187,28 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="408" y="185" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1578415040805" />
-    <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1580422040726">
+    <state width="1398" height="161" key="GridCell.Tab.0.bottom" timestamp="1580818625915">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580422040726" />
+    <state width="1398" height="161" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580818625915" />
     <state width="1398" height="221" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578838568143" />
     <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1577805051063" />
-    <state width="1398" height="216" key="GridCell.Tab.0.center" timestamp="1580422040725">
+    <state width="1398" height="161" key="GridCell.Tab.0.center" timestamp="1580818625913">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580422040725" />
+    <state width="1398" height="161" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580818625913" />
     <state width="1398" height="221" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578838568136" />
     <state width="1398" height="226" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1577805051061" />
-    <state width="1398" height="216" key="GridCell.Tab.0.left" timestamp="1580422040724">
+    <state width="1398" height="161" key="GridCell.Tab.0.left" timestamp="1580818625911">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580422040724" />
+    <state width="1398" height="161" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580818625911" />
     <state width="1398" height="221" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578838568123" />
     <state width="1398" height="226" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1577805051060" />
-    <state width="1398" height="216" key="GridCell.Tab.0.right" timestamp="1580422040726">
+    <state width="1398" height="161" key="GridCell.Tab.0.right" timestamp="1580818625914">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580422040726" />
+    <state width="1398" height="161" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580818625914" />
     <state width="1398" height="221" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578838568142" />
     <state width="1398" height="226" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1577805051062" />
     <state width="1398" height="289" key="GridCell.Tab.1.bottom" timestamp="1580043411037">
@@ -201,10 +231,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="354" y="75" width="900" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580035326532" />
-    <state x="413" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1580416942495">
+    <state x="413" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1580798654134">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="413" y="278" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1580416942495" />
+    <state x="413" y="278" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1580798654134" />
     <state x="413" y="279" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1576601396404" />
     <state x="397" y="103" width="782" height="693" key="find.popup" timestamp="1576683124021">
       <screen x="0" y="0" width="1440" height="900" />

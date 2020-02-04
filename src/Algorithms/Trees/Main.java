@@ -181,7 +181,7 @@ public class Main {
     }
     private void _reverseLevelOrderTraversal(Node cur_ptr) {
         if(cur_ptr == null) { return; }
-        stack  = new Stack<Integer>();
+        stack  = new Stack<>();
         queue = new LinkedList<>();
         queue.add(root);
         while (!queue.isEmpty()) {
@@ -206,7 +206,7 @@ public class Main {
             Node node = queue.poll();
             hd = node.horiz_dist;
             if (!sortedMap.containsKey(hd)) {
-                l = new ArrayList<Integer>();
+                l = new ArrayList<>();
                 l.add(node.data);
                 sortedMap.put(hd, l);
             } else {
