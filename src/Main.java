@@ -1,34 +1,52 @@
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.util.Stack;
 
 class Node {
     int data;
-    Node next;
+    Node left, right;
     Node(int data) {
         this.data = data;
-        next = null;
+        this.left = this.right = null;
     }
 }
 
 public class Main {
-    static Node head = null;
+    static Node root = null;
+    static void insert(int val) { root = _buildTree(root, val); }
+
+    private static Node _buildTree(Node ptr, int val) {
+        if (ptr == null) { ptr = new Node(val); return ptr; }
+        if (val < ptr.data) { ptr.left = _buildTree(ptr.left, val); }
+        else if (val > ptr.data) { ptr.right = _buildTree(ptr.right, val); }
+        return ptr;
+    }
+
+    static void postOrder() {
+        Node ptr = root;
+        if (ptr == null) {
+            System.out.println("tree is empty..!");
+            return;
+        }
+        Stack<Node> stack = new Stack<>();
+        Node previous = null;
+        do {
+            while (ptr != null) {
+                stack.push(ptr);
+                ptr = ptr.left;
+            }
+            while (ptr == null && !stack.isEmpty()) {
+                ptr = stack.peek();
+                if (ptr.right == null || ptr.right == previous) {
+                    System.out.print(ptr.data + " - >");
+                    stack.pop();
+                    previous = ptr;
+                    ptr = null;
+                } else { ptr = ptr.right; }
+            }
+        } while (!stack.isEmpty());
+    }
+
     public static void main(String[] args) {
-        SortedSet<Integer> set = new TreeSet<>();
-        set.add(129);set.add(756);set.add(4);set.add(943);
-        for (int i : set) {
-            System.out.println(i);
-        }
-        int firstEle = set.stream().findFirst().get();
-        head = new Node(firstEle);
-        set.remove(firstEle);
-        Node ptr = head;
-        for (int i : set) {
-            head.next = new Node(i);
-            head = head.next;
-        }
-        while (ptr != null) {
-            System.out.print(ptr.data + " -> ");
-            ptr = ptr.next;
-        }
+        insert(100); insert(200); insert(50);
+        postOrder();
     }
 }
