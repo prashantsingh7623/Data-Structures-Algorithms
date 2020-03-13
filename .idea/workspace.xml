@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000a8bb7-8980-4f2b-812d-72c2f07e7d86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Trees/Binary_search_trees/min_and_max_element/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Trees/Binary_search_trees/search_ele/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Trees/Binary_search_trees/top_view/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hackerrank/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hackerrank/count_triplets/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hackerrank/sherlock_and_anagrams/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/Arrays/chek_sorted_arr_using_recursion/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/Arrays/chek_sorted_arr_using_recursion/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/check_data_in_LL_is_palindrome/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/check_data_in_LL_is_palindrome/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/delete_node_withuot_head_ptr/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/delete_node_withuot_head_ptr/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/delete_node_withuot_head_ptr/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/delete_node_withuot_head_ptr/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/find_no_of_islands_in_2D_matrix/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/find_no_of_islands_in_2D_matrix/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Arrays/chek_sorted_arr_using_recursion/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Arrays/chek_sorted_arr_using_recursion/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/check_LL_is_palindrome/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/check_LL_is_palindrome/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/check_data_in_LL_is_palindrome/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/check_data_in_LL_is_palindrome/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/delete_node_withuot_head_ptr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/delete_node_withuot_head_ptr/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/find_no_of_islands_in_2D_matrix/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/find_no_of_islands_in_2D_matrix/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Algorithms/LinkedList/reverse_LL_in_pairs/Recursive_approach" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -56,13 +61,26 @@
       <recent name="$PROJECT_DIR$/src/Algorithms/LinkedList/Merge_2_Sorted_LL/Iterative_approach" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Trees.Binary_search_trees.top_view.Main" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.LinkedList.delete_node_withuot_head_ptr.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.Trees.Binary_search_trees.top_view.*" />
+          <option name="PATTERN" value="Algorithms.LinkedList.delete_node_withuot_head_ptr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hackerrank.sherlock_and_anagrams.Main" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hackerrank.sherlock_and_anagrams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,11 +89,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Trees.Binary_search_trees.traversals_in_BST.Main" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.LinkedList.check_data_in_LL_is_palindrome.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.Trees.Binary_search_trees.traversals_in_BST.*" />
+          <option name="PATTERN" value="Algorithms.LinkedList.check_data_in_LL_is_palindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,19 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Trees.Binary_search_trees.search_ele.Main" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithms.Trees.Binary_search_trees.search_ele.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java" />
@@ -118,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -172,28 +177,32 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="408" y="185" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1578415040805" />
-    <state width="1398" height="101" key="GridCell.Tab.0.bottom" timestamp="1582311675173">
+    <state width="1398" height="365" key="GridCell.Tab.0.bottom" timestamp="1583945854366">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="101" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582311675173" />
+    <state width="1398" height="365" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583945854366" />
+    <state width="1398" height="101" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1583921802730" />
     <state width="1398" height="221" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578838568143" />
     <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1577805051063" />
-    <state width="1398" height="101" key="GridCell.Tab.0.center" timestamp="1582311675170">
+    <state width="1398" height="365" key="GridCell.Tab.0.center" timestamp="1583945854364">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="101" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582311675170" />
+    <state width="1398" height="365" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583945854364" />
+    <state width="1398" height="101" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1583921802726" />
     <state width="1398" height="221" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578838568136" />
     <state width="1398" height="226" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1577805051061" />
-    <state width="1398" height="101" key="GridCell.Tab.0.left" timestamp="1582311675169">
+    <state width="1398" height="365" key="GridCell.Tab.0.left" timestamp="1583945854363">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="101" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582311675169" />
+    <state width="1398" height="365" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583945854363" />
+    <state width="1398" height="101" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1583921802725" />
     <state width="1398" height="221" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578838568123" />
     <state width="1398" height="226" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1577805051060" />
-    <state width="1398" height="101" key="GridCell.Tab.0.right" timestamp="1582311675171">
+    <state width="1398" height="365" key="GridCell.Tab.0.right" timestamp="1583945854365">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="101" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582311675171" />
+    <state width="1398" height="365" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583945854365" />
+    <state width="1398" height="101" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1583921802729" />
     <state width="1398" height="221" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578838568142" />
     <state width="1398" height="226" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1577805051062" />
     <state width="1398" height="289" key="GridCell.Tab.1.bottom" timestamp="1580043411037">
@@ -212,14 +221,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="289" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1580043411036" />
-    <state x="354" y="75" width="900" height="722" key="SettingsEditor" timestamp="1580035326532">
+    <state x="361" y="145" width="900" height="722" key="SettingsEditor" timestamp="1583920129014">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="354" y="75" width="900" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580035326532" />
-    <state x="413" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1583750018275">
+    <state x="361" y="145" width="900" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583920129014" />
+    <state x="413" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1583919857382">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="413" y="278" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583750018275" />
+    <state x="413" y="278" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583919857382" />
     <state x="413" y="279" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1576601396404" />
     <state x="397" y="103" width="782" height="693" key="find.popup" timestamp="1576683124021">
       <screen x="0" y="0" width="1440" height="900" />

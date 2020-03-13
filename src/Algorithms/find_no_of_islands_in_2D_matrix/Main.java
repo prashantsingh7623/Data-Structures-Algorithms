@@ -1,7 +1,5 @@
 package Algorithms.find_no_of_islands_in_2D_matrix;
 
-import javax.swing.*;
-
 public class Main {
 
     static int ROW, COL;
@@ -15,8 +13,8 @@ public class Main {
     //function to explore cell(i,j)
     static void DFS(int [][]M, int row, int col, boolean [][]visited) {
         visited[row][col] = true;
-        int rowNbr[] = {-1,-1,-1,0,0,1,1,1};
-        int colNbr[] = {-1,0,1,-1,1,-1,0,1};
+        int[] rowNbr = {-1,-1,-1,0,0,1,1,1};
+        int[] colNbr = {-1,0,1,-1,1,-1,0,1};
         for(int i = 0; i<8; i++) {
             if(isSafe(M, row + rowNbr[i], col + colNbr[i], visited)) {
                 DFS(M, row + rowNbr[i], col + colNbr[i], visited);

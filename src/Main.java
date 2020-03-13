@@ -47,6 +47,14 @@ public class Main {
 
     public static void main(String[] args) {
         insert(100); insert(200); insert(50);
-        postOrder();
+        Stack<Integer> stack1 = new Stack<>();
+        stack1.push(2);
+        stack1.push(3);
+
+        Stack<Integer> stack2 = new Stack<>();
+        stack2.add(0,1);
+        stack2.add(0,2);
+
+        System.out.println(stack2);
     }
 }

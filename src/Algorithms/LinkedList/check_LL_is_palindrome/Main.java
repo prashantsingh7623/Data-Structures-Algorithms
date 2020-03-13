@@ -28,7 +28,7 @@ public class Main {
         }
         int count = countLL(ptr);
         Node midlle = null;
-        if(count % 2 == 0) { midlle = slow; prev.next = null;}
+        if (count % 2 == 0) { midlle = slow; prev.next = null;}
         else { midlle = slow.next; prev.next = null;}
         Node mid = reverseLL(midlle);
         while (ptr != null && mid != null) {
