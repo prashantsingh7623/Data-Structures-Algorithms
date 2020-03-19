@@ -1,60 +1,30 @@
-import java.util.Stack;
-
-class Node {
-    int data;
-    Node left, right;
-    Node(int data) {
-        this.data = data;
-        this.left = this.right = null;
-    }
-}
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Main {
-    static Node root = null;
-    static void insert(int val) { root = _buildTree(root, val); }
-
-    private static Node _buildTree(Node ptr, int val) {
-        if (ptr == null) { ptr = new Node(val); return ptr; }
-        if (val < ptr.data) { ptr.left = _buildTree(ptr.left, val); }
-        else if (val > ptr.data) { ptr.right = _buildTree(ptr.right, val); }
-        return ptr;
-    }
-
-    static void postOrder() {
-        Node ptr = root;
-        if (ptr == null) {
-            System.out.println("tree is empty..!");
-            return;
+    static int countAnagrams(String str) {
+        int count = 0;
+        String s = null;
+        Map<String, Integer> map = new HashMap<>();
+        for (int i=0; i<str.length(); i++) {
+            s = "";
+            for (int j=i+1; j<str.length() + 1; j++) {
+                s = str.substring(i,j);
+                char[] temp = s.toCharArray(); //converting the string into char array
+                Arrays.sort(temp);
+                s = String.copyValueOf(temp); //again converting the string into array.
+                if (!map.containsKey(s)) { map.put(s, 1); }
+                else { map.replace(s, map.get(s) + 1); }
+            }
         }
-        Stack<Node> stack = new Stack<>();
-        Node previous = null;
-        do {
-            while (ptr != null) {
-                stack.push(ptr);
-                ptr = ptr.left;
-            }
-            while (ptr == null && !stack.isEmpty()) {
-                ptr = stack.peek();
-                if (ptr.right == null || ptr.right == previous) {
-                    System.out.print(ptr.data + " - >");
-                    stack.pop();
-                    previous = ptr;
-                    ptr = null;
-                } else { ptr = ptr.right; }
-            }
-        } while (!stack.isEmpty());
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            count += (entry.getValue() * (entry.getValue() - 1) / 2);
+        }
+        return count;
     }
 
     public static void main(String[] args) {
-        insert(100); insert(200); insert(50);
-        Stack<Integer> stack1 = new Stack<>();
-        stack1.push(2);
-        stack1.push(3);
-
-        Stack<Integer> stack2 = new Stack<>();
-        stack2.add(0,1);
-        stack2.add(0,2);
-
-        System.out.println(stack2);
+        System.out.println(countAnagrams("mom"));
     }
 }
