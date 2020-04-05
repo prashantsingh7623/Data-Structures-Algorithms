@@ -8,8 +8,8 @@ package Algorithms.N_Queens;
 * Uncomment below lines to understand the recursion better.*/
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     static boolean isSafe(int i, int j, int n, List<ArrayList<Integer>> visited) {
@@ -54,16 +54,19 @@ public class Main {
             }
         }
         if (visited.size() == n) {
-            for (int[] row : arr) {
-                System.out.println(Arrays.toString(row));
+            System.out.print("Queens allotment : ");
+            for(List<Integer> l : visited) {
+                System.out.print(l.get(1) + 1 + " ");
             }
-            System.out.println("\n");
+            System.out.println();
         }
     }
 
     public static void main(String[] args) {
-        int[][] arr = {{0,0,0,0}, {0,0,0,0}, {0,0,0,0}, {0,0,0,0}};
-        int n = arr.length;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter no. of Queens : ");
+        int n = scanner.nextInt();
+        int[][] arr = new int[n][n];
         List<ArrayList<Integer>> visited = new ArrayList<>();
         backTrack(0, 0, n, arr, visited);
     }

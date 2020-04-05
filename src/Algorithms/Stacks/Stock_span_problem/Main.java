@@ -2,7 +2,7 @@ package Algorithms.Stacks.Stock_span_problem;
 
 /*Stock span problem
 The Span of a stock price for a given day is defined as the maximum number of consecutive days the
-price of the stick is less than or equal to the given day.
+price of the stock is less than or equal to the given day.
 
 Using Brute force method -
 Time Complexity: O(n2). Space Complexity: O(1).
@@ -41,6 +41,7 @@ public class Main {
 //                s[i] = i - stack.peek();
 //                stack.push(i);
 //            }
+
         }
         return s;
     }
