@@ -1,4 +1,4 @@
-package Algorithms.find_no_of_islands_in_2D_matrix;
+package Algorithms.dynamic_programming.find_no_of_islands_in_2D_matrix;
 
 public class Main {
 
@@ -38,10 +38,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        ROW = 5;
+        ROW = 4;
         COL = 5;
 //        int [][] M = {{0,0,1,1,0},{1,0,1,1,0},{0,1,0,0,0},{0,0,0,0,1}};
-        int [][]M = {{1,1,0,0,0},{0,1,0,0,1},{1,0,0,1,1},{0,0,0,0,0},{1,0,1,0,1}};
+        int [][]M = {{1,1,0,0,0},{1,1,0,0,0},{0,0,1,0,0},{0,0,0,1,1}};
         System.out.println(Main.countIslands(M));
     }
 }

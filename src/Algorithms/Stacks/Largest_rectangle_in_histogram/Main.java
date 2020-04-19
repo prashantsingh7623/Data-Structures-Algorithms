@@ -67,7 +67,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,3,3,2};
+        int[] arr = {1,8,6,2,5,4,8,3,7};
         //int[] arr = {20,2,3,4,2,10};
         //int[] arr = {1,2,3};
         System.out.println("max : " + findLargestRectangle_STACK(arr));

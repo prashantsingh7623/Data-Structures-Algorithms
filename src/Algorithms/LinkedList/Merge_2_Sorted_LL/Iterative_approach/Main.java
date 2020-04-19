@@ -57,12 +57,12 @@ public class Main {
 
         //creating 1st sorted LL
         Main l1 = new Main();
-        l1.insert(10);l1.insert(20);l1.insert(30);l1.insert(40);
+        l1.insert(1);l1.insert(4);l1.insert(5);l1.insert(40);
         display(l1.head);
 
         //creating another LL
         Main l2 = new Main();
-        l2.insert(5);l2.insert(10);l2.insert(19);l2.insert(35);l2.insert(45);
+        l2.insert(1);l2.insert(3);l2.insert(4);l2.insert(35);l2.insert(45);
         l2.insert(55);
         display(l2.head);
 

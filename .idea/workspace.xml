@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000a8bb7-8980-4f2b-812d-72c2f07e7d86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/regex/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/strings/longest_common_substring/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/strings/longest_palindromic_substring/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Arrays/print_matrix_in_spiral/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Arrays/rotate_array/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Arrays/triplet_with_sum_0/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/dynamic_programming/find_min_path/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/strings/longest_commom_suffix/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/N_Queens/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/N_Queens/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/N_Queens/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/N_Queens/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Stacks/Stock_span_problem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Stacks/Stock_span_problem/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/Arrays/kadane_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/Arrays/kadane_algorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/Merge_2_Sorted_LL/Iterative_approach/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/LinkedList/Merge_2_Sorted_LL/Iterative_approach/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/Stacks/Largest_rectangle_in_histogram/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/Stacks/Largest_rectangle_in_histogram/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/Stacks/Stock_span_problem/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/Stacks/Stock_span_problem/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/find_largest_island_in_2D_matrix/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/find_no_of_islands_in_2D_matrix/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/Arrays/kadane_algorithm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Arrays/kadane_algorithm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/LinkedList/Merge_2_Sorted_LL/Iterative_approach/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/LinkedList/Merge_2_Sorted_LL/Iterative_approach/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/Stacks/Largest_rectangle_in_histogram/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Stacks/Largest_rectangle_in_histogram/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/find_largest_island_in_2D_matrix/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/dynamic_programming/find_largest_island_in_2D_matrix/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/find_no_of_islands_in_2D_matrix/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/dynamic_programming/find_no_of_islands_in_2D_matrix/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +66,13 @@
       <recent name="$PROJECT_DIR$/src/Algorithms/LinkedList/Merge_2_Sorted_LL/Iterative_approach" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Stacks.Stock_span_problem.Main" />
+  <component name="RunManager" selected="Application.Main (4)">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Arrays.kadane_algorithm.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.Stacks.Stock_span_problem.*" />
+          <option name="PATTERN" value="Algorithms.Arrays.kadane_algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.N_Queens.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Arrays.triplet_with_sum_0.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.N_Queens.*" />
+          <option name="PATTERN" value="Algorithms.Arrays.triplet_with_sum_0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,11 +94,11 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.regex.Main" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.dynamic_programming.find_min_path.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.regex.*" />
+          <option name="PATTERN" value="Algorithms.dynamic_programming.find_min_path.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.strings.longest_palindromic_substring.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.dynamic_programming.find_largest_island_in_2D_matrix.find_no_of_islands_in_2D_matrix.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.strings.longest_palindromic_substring.*" />
+          <option name="PATTERN" value="Algorithms.dynamic_programming.find_largest_island_in_2D_matrix.find_no_of_islands_in_2D_matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,70 +174,59 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="468" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1580751684112" />
-    <state x="448" y="296" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1577457344785">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="448" y="296" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1440.900@0.0.1440.900" timestamp="1577457344785" />
-    <state x="408" y="185" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578415040805">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="408" y="185" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1578415040805" />
     <state x="363" y="0" key="CommitChangelistDialog2" timestamp="1584642654528">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="363" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584642654528" />
-    <state width="1398" height="179" key="GridCell.Tab.0.bottom" timestamp="1585945913395">
+    <state width="589" height="773" key="GridCell.Tab.0.bottom" timestamp="1587257005561">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="179" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585945913395" />
+    <state width="589" height="773" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587257005561" />
     <state width="1398" height="168" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1584647381501" />
     <state width="1398" height="221" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578838568143" />
-    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1577805051063" />
-    <state width="1398" height="179" key="GridCell.Tab.0.center" timestamp="1585945913394">
+    <state width="589" height="773" key="GridCell.Tab.0.center" timestamp="1587257005557">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="179" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585945913394" />
+    <state width="589" height="773" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587257005557" />
     <state width="1398" height="168" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1584647381500" />
     <state width="1398" height="221" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578838568136" />
-    <state width="1398" height="226" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1577805051061" />
-    <state width="1398" height="179" key="GridCell.Tab.0.left" timestamp="1585945913394">
+    <state width="589" height="773" key="GridCell.Tab.0.left" timestamp="1587257005554">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="179" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585945913394" />
+    <state width="589" height="773" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587257005554" />
     <state width="1398" height="168" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1584647381499" />
     <state width="1398" height="221" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578838568123" />
-    <state width="1398" height="226" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1577805051060" />
-    <state width="1398" height="179" key="GridCell.Tab.0.right" timestamp="1585945913395">
+    <state width="589" height="773" key="GridCell.Tab.0.right" timestamp="1587257005560">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="179" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585945913395" />
+    <state width="589" height="773" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587257005560" />
     <state width="1398" height="168" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1584647381501" />
     <state width="1398" height="221" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578838568142" />
-    <state width="1398" height="226" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1577805051062" />
-    <state width="1398" height="289" key="GridCell.Tab.1.bottom" timestamp="1580043411037">
+    <state width="1398" height="283" key="GridCell.Tab.1.bottom" timestamp="1586282910936">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="289" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580043411037" />
-    <state width="1398" height="289" key="GridCell.Tab.1.center" timestamp="1580043411036">
+    <state width="1398" height="283" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586282910936" />
+    <state width="1398" height="283" key="GridCell.Tab.1.center" timestamp="1586282910934">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="289" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1580043411036" />
-    <state width="1398" height="289" key="GridCell.Tab.1.left" timestamp="1580043411035">
+    <state width="1398" height="283" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586282910934" />
+    <state width="1398" height="283" key="GridCell.Tab.1.left" timestamp="1586282910933">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="289" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1580043411035" />
-    <state width="1398" height="289" key="GridCell.Tab.1.right" timestamp="1580043411036">
+    <state width="1398" height="283" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586282910933" />
+    <state width="1398" height="283" key="GridCell.Tab.1.right" timestamp="1586282910935">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="289" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1580043411036" />
+    <state width="1398" height="283" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586282910935" />
     <state x="361" y="145" width="900" height="722" key="SettingsEditor" timestamp="1585928754454">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="361" y="145" width="900" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585928754454" />
-    <state x="413" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1586095114017">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="413" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1587254753047">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="413" y="277" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1586095114017" />
+    <state x="413" y="275" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1587167873845" />
+    <state x="413" y="274" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1587254753047" />
     <state x="318" y="159" width="803" height="582" key="find.popup" timestamp="1585605713970">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

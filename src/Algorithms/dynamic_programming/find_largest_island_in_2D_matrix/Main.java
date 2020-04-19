@@ -1,4 +1,4 @@
-package Algorithms.find_largest_island_in_2D_matrix;
+package Algorithms.dynamic_programming.find_largest_island_in_2D_matrix;
 
 public class Main {
 
