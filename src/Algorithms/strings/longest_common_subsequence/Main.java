@@ -16,7 +16,6 @@ For printing the sequence : https://www.geeksforgeeks.org/printing-longest-commo
 */
 
 import java.util.Arrays;
-
 public class Main {
 
     public static int[][] LCSTable;
@@ -44,7 +43,11 @@ public class Main {
         int lenLCS = LCS(first, sec);
         int ind = lenLCS;
         char[] ans = new char[lenLCS];
-
+        for(int i=0; i<LCSTable.length; i++) {
+            for(int j=0; j<LCSTable[0].length; j++)
+                System.out.print(LCSTable[i][j]);
+            System.out.println();
+        }
         int i= first.length(), j= sec.length();
         while (i > 0 && j > 0) {
             if (first.charAt(i-1) == sec.charAt(j-1)) {

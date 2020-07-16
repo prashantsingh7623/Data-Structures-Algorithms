@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000a8bb7-8980-4f2b-812d-72c2f07e7d86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Arrays/search_rot_sorted_arr/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Arrays/subarry_sum_equal_to_k/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/strings/longest_common_subsequence/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Heaps/MaxHeap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/dynamic_programming/placing_parantheses/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/dynamic_programming/subset_sum_problem/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/Arrays/triplet_with_sum_0/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/Arrays/triplet_with_sum_0/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Algorithms/strings/longest_common_subsequence/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Algorithms/strings/longest_common_subsequence/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Hackerrank/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Hackerrank/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/Arrays/find_duplicate_in_array/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Arrays/find_duplicate_in_array/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/Arrays/triplet_with_sum_0/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Arrays/triplet_with_sum_0/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/GREEDY_ALGORITHMS/huffman_coding/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/GREEDY_ALGORITHMS/huffman_coding/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/Sorting/MergeSort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/Sorting/MergeSort/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/dynamic_programming/discrete_knapsack/with_repetition/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/dynamic_programming/discrete_knapsack/with_repetition/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/dynamic_programming/discrete_knapsack/without_repetition/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/dynamic_programming/discrete_knapsack/without_repetition/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/strings/longest_common_subsequence/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/strings/longest_common_subsequence/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hackerrank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hackerrank/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coursera/fibonacciDynamic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/fibonacciDynamic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coursera/gcd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/gcd/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +68,13 @@
       <recent name="$PROJECT_DIR$/src/Algorithms/LinkedList/Merge_2_Sorted_LL/Iterative_approach" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (6)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Arrays.search_rot_sorted_arr.Main" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Arrays.triplet_with_sum_0.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.Arrays.search_rot_sorted_arr.*" />
+          <option name="PATTERN" value="Algorithms.Arrays.triplet_with_sum_0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,11 +83,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Arrays.subarry_sum_equal_to_k.Main" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.dynamic_programming.subset_sum_problem.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.Arrays.subarry_sum_equal_to_k.*" />
+          <option name="PATTERN" value="Algorithms.dynamic_programming.subset_sum_problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,11 +96,11 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.dynamic_programming.find_min_path.Main" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.dynamic_programming.discrete_knapsack.without_repetition.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.dynamic_programming.find_min_path.*" />
+          <option name="PATTERN" value="Algorithms.dynamic_programming.discrete_knapsack.without_repetition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,33 +108,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Heaps.MaxHeap.Main" />
       <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.Heaps.MaxHeap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.strings.longest_common_subsequence.Main" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithms.strings.longest_common_subsequence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (6)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -153,74 +168,90 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="115" key="#Notifications" timestamp="1580751804086">
+    <state x="320" y="115" key="#Notifications" timestamp="1592234613168">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1580751804086" />
-    <state x="468" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580751684112">
+    <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1592234613168" />
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1592856619290">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="468" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1580751684112" />
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1592856619290" />
     <state x="363" y="0" key="CommitChangelistDialog2" timestamp="1584642654528">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="363" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584642654528" />
-    <state width="343" height="773" key="GridCell.Tab.0.bottom" timestamp="1587620470383">
+    <state width="1398" height="283" key="GridCell.Tab.0.bottom" timestamp="1592858869669">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="343" height="773" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587620470383" />
+    <state width="1398" height="283" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592858869669" />
     <state width="1398" height="168" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1584647381501" />
+    <state width="499" height="773" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1588600819230" />
+    <state width="499" height="773" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1588861425964" />
     <state width="378" height="773" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1587618428732" />
-    <state width="343" height="773" key="GridCell.Tab.0.center" timestamp="1587620470380">
+    <state width="374" height="773" key="GridCell.Tab.0.bottom/34.23.1406.877@34.23.1406.877" timestamp="1592226570182" />
+    <state width="499" height="773" key="GridCell.Tab.0.bottom/35.23.1405.877@35.23.1405.877" timestamp="1590385657631" />
+    <state width="1398" height="283" key="GridCell.Tab.0.center" timestamp="1592858869668">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="343" height="773" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587620470380" />
+    <state width="1398" height="283" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592858869668" />
     <state width="1398" height="168" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1584647381500" />
+    <state width="499" height="773" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1588600819227" />
+    <state width="499" height="773" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1588861425962" />
     <state width="378" height="773" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1587618428729" />
-    <state width="343" height="773" key="GridCell.Tab.0.left" timestamp="1587620470379">
+    <state width="374" height="773" key="GridCell.Tab.0.center/34.23.1406.877@34.23.1406.877" timestamp="1592226570180" />
+    <state width="499" height="773" key="GridCell.Tab.0.center/35.23.1405.877@35.23.1405.877" timestamp="1590385657624" />
+    <state width="1398" height="283" key="GridCell.Tab.0.left" timestamp="1592858869667">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="343" height="773" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587620470379" />
+    <state width="1398" height="283" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592858869667" />
     <state width="1398" height="168" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1584647381499" />
+    <state width="499" height="773" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1588600819226" />
+    <state width="499" height="773" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1588861425961" />
     <state width="378" height="773" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1587618428723" />
-    <state width="343" height="773" key="GridCell.Tab.0.right" timestamp="1587620470382">
+    <state width="374" height="773" key="GridCell.Tab.0.left/34.23.1406.877@34.23.1406.877" timestamp="1592226570178" />
+    <state width="499" height="773" key="GridCell.Tab.0.left/35.23.1405.877@35.23.1405.877" timestamp="1590385657623" />
+    <state width="1398" height="283" key="GridCell.Tab.0.right" timestamp="1592858869669">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="343" height="773" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587620470382" />
+    <state width="1398" height="283" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592858869669" />
     <state width="1398" height="168" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1584647381501" />
+    <state width="499" height="773" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1588600819229" />
+    <state width="499" height="773" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1588861425963" />
     <state width="378" height="773" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1587618428730" />
-    <state width="1398" height="283" key="GridCell.Tab.1.bottom" timestamp="1586282910936">
+    <state width="374" height="773" key="GridCell.Tab.0.right/34.23.1406.877@34.23.1406.877" timestamp="1592226570181" />
+    <state width="499" height="773" key="GridCell.Tab.0.right/35.23.1405.877@35.23.1405.877" timestamp="1590385657626" />
+    <state width="1398" height="283" key="GridCell.Tab.1.bottom" timestamp="1592858869672">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="283" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586282910936" />
-    <state width="1398" height="283" key="GridCell.Tab.1.center" timestamp="1586282910934">
+    <state width="1398" height="283" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592858869672" />
+    <state width="1398" height="283" key="GridCell.Tab.1.center" timestamp="1592858869670">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="283" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586282910934" />
-    <state width="1398" height="283" key="GridCell.Tab.1.left" timestamp="1586282910933">
+    <state width="1398" height="283" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1592858869670" />
+    <state width="1398" height="283" key="GridCell.Tab.1.left" timestamp="1592858869670">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="283" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586282910933" />
-    <state width="1398" height="283" key="GridCell.Tab.1.right" timestamp="1586282910935">
+    <state width="1398" height="283" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1592858869670" />
+    <state width="1398" height="283" key="GridCell.Tab.1.right" timestamp="1592858869671">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="283" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586282910935" />
+    <state width="1398" height="283" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1592858869671" />
     <state x="361" y="145" width="900" height="722" key="SettingsEditor" timestamp="1585928754454">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="361" y="145" width="900" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585928754454" />
-    <state x="413" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1587614134841">
+    <state x="485" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1592851267628">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="413" y="274" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1587614134841" />
+    <state x="485" y="321" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1592851267628" />
     <state x="413" y="274" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1587254753047" />
     <state x="318" y="159" width="803" height="582" key="find.popup" timestamp="1585605713970">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="318" y="159" width="803" height="582" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1585605713970" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1580419905011">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588609774642">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1580419905011" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1588609774642" />
   </component>
 </project>
