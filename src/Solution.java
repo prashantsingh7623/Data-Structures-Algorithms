@@ -1,28 +1,9 @@
- interface a{
-     void draw();
-     int a = 0;
-}
-
-abstract class b{
-    int a;
-    abstract void draw();
-    b() {
-        a = 10;
-    }
-}
-
-class c extends b implements a {
-
-    @Override
-    public void draw() {
-        System.out.println("hello");
-    }
-
-}
-class Solution{
-    public static void main(String[] args) {
-        c obj = new c();
-        obj.draw();
-        System.out.println(obj);
-    }
+import java.io.*;
+import java.util.*;
+public class Solution {
+  public static void main (String[] args) {
+    List<Integer> list = new ArrayList<>();
+  
+    list.add(10); list.add(20); list.add(30); list.add(40);
+  }
 }
