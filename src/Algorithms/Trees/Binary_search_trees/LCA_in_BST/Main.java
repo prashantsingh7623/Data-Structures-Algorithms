@@ -27,6 +27,16 @@ public class Main {
         return ptr;
     }
 
+    private static Node LCS(Node root, Node p, Node q) {
+      if (root == null) { return null; }
+      if(root == p || root == q) { return root; }
+      Node left = LCS(root.left, p, q);
+      Node right = LCS(root.right, p, q);
+      if(left != null && right != null) { return root; }
+      if(left != null) { return left; }
+      else {return right;}
+    }
+
     static void preOrder() {
         Node ptr = root;
         Stack<Node> stack = new Stack<>();
@@ -43,6 +53,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-
+      
     }
 }
