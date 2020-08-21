@@ -1,14 +1,19 @@
-import java.util.*;
 import java.io.*;
-public class Main {
-    public static void main(String[] args) throws IOException{
-      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-      int n = Integer.parseInt(br.readLine());
-      char[] arr = new char[n];
-      int i=0; 
-      while(n > 0) {
-          char ch = (char)br.read();
-          arr[i++] = ch;
-      }
+
+class Try {
+  protected void foo() { System.out.println("foo try is called...!");}
+}
+
+public class Main extends Try{
+
+  public void foo() { System.out.println("foo try is called...!");}
+    public static void main(String[] args){
+      String s1 = "abc";
+		String s2 = "abc";
+		System.out.println("s1 == s2 is:" + s1 == s2);
+  }
+
+  public static void main() {
+
   }
 }
